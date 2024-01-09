@@ -1,1 +1,1 @@
-# uniformity_dichotomy
+Data reduction and plotting scripts for Xu & Wang (2024).

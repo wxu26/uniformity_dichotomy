@@ -1,0 +1,113 @@
+J/AJ/155/48  California-Kepler Survey (CKS). V. Masses and radii  (Weiss+, 2018)
+================================================================================
+The California-Kepler survey.
+V. Peas in a pod: planets in a Kepler multi-planet system are similar in size
+and regularly spaced.
+    Weiss L.M., Marcy G.W., Petigura E.A., Fulton B.J., Howard A.W., Winn J.N.,
+    Isaacson H.T., Morton T.D., Hirsch L.A., Sinukoff E.J., Cumming A., Hebb L.,
+    Cargile P.A.
+    <Astron. J., 155, 48 (2018)>
+    =2018AJ....155...48W    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Exoplanets ; Stars, masses ; Stars, diameters ; Surveys
+Keywords: catalogs - planetary systems - stars: fundamental parameters - surveys
+
+Abstract:
+    We have established precise planet radii, semimajor axes, incident
+    stellar fluxes, and stellar masses for 909 planets in 355 multi-planet
+    systems discovered by Kepler. In this sample, we find that planets
+    within a single multi-planet system have correlated sizes: each planet
+    is more likely to be the size of its neighbor than a size drawn at
+    random from the distribution of observed planet sizes. In systems with
+    three or more planets, the planets tend to have a regular spacing: the
+    orbital period ratios of adjacent pairs of planets are correlated.
+    Furthermore, the orbital period ratios are smaller in systems with
+    smaller planets, suggesting that the patterns in planet sizes and
+    spacing are linked through formation and/or subsequent orbital dynamics.
+    Yet, we find that essentially no planets have orbital period ratios
+    smaller than 1.2, regardless of planet size. Using empirical mass-radius
+    relationships, we estimate the mutual Hill separations of planet pairs.
+    We find that 93% of the planet pairs are at least 10 mutual Hill radii
+    apart, and that a spacing of ~20 mutual Hill radii is most common. We
+    also find that when comparing planet sizes, the outer planet is larger
+    in 65%+/-0.4% of cases, and the typical ratio of the outer to inner
+    planet size is positively correlated with the temperature difference
+    between the planets. This could be the result of photo-evaporation.
+
+Description:
+    With the goal of clarifying the stellar and planetary properties of
+    Kepler's multi-planet systems, the California-Kepler Survey (CKS)
+    determined precise stellar and planetary properties for 355 Kepler
+    multi-planet systems containing 909 transiting planets.
+    The initial set of CKS systems with multiple transiting planet
+    candidates consists of 469 stars with at least two transit-like
+    signals and a total of 1215 transit-like signals that were at one time
+    flagged as Kepler Objects of Interest (KOIs). After several cuts, our
+    sample of "CKS multis" contained 909 high-purity planet candidates,
+    which we henceforth call planets, in 355 multi-planet systems.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .   This file
+table1.dat     175      909   CKS Multis Properties
+--------------------------------------------------------------------------------
+
+See also:
+ V/133         : Kepler Input Catalog (Kepler Mission Team, 2009)
+ J/ApJS/197/8  : Kepler's candidate multiple transiting planets
+                                                               (Lissauer+, 2011)
+ J/ApJ/763/41  : Kepler multiple-candidate systems radii (Ciardi+, 2013)
+ J/ApJ/783/4   : Properties of Kepler multi-planet candidate systems
+                                                                   (Wang+, 2014)
+ J/ApJ/784/45  : Kepler's multiple planet candidates. III. (Rowe+, 2014)
+ J/ApJ/790/146 : Planets in Kepler's multi-transiting systems (Fabrycky+, 2014)
+ J/AJ/154/107  : California-Kepler Survey (CKS). I. 1305 stars (Petigura+, 2017)
+ J/AJ/154/108  : California-Kepler Survey (CKS). II. Properties (Johnson+, 2017)
+ J/AJ/154/109  : California-Kepler Survey (CKS). III. Planet radii
+                                                                 (Fulton+, 2017)
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  6 A6     ---     KOI-S   Kepler Object of Interest number of star
+                                 (KOI -NNNN in Simbad)
+   8- 15 I8     ---     KIC     [1718189/12314973] Kepler Input Catalog number
+                                 of star (KIC NNNNNNNN in Simbad)
+  17- 25 A9     ---     KOI-P   Kepler Object of Interest number of planet
+                                 (KOI -NNNN.NN in Simbad)
+  27- 39 A13    ---     Kepler  Kepler name of planet, if named (Kepler -NNNNAa
+                                 in Simbad)
+  41- 46 F6.4   Msun    M*      [0.624/1.4332] Stellar mass
+  48- 52 F5.3   Msun    R*      [0.614/3.36] Stellar radius
+  54- 60 F7.3   ---     CDPP    [9.986/384.892] The 6-hour Combined Differential
+                                 Photometric Precision (CDPP_6hr_)
+  62- 67 F6.4   ---     b       [0.0004/0.8999] Impact parameter
+  69- 82 F14.9  d       Per     Orbital period
+  84- 98 F15.12 Rgeo    Rp      Planet radius
+ 100-114 F15.13 Rgeo  e_Rp      Uncertainty in Rp
+ 116-129 F14.9  K       Teq     Equilibrium temperature
+ 131-145 F15.12 Rgeo    RpAvg   [0/11.3289969329] Average planet radius (1)
+ 147-160 F14.11 ---     Pj+1/Pj [0/81.7781148492] Orbital period ratio
+                                 P_j+1_/P_j_ (1)
+ 162-175 F14.11 ---     Delta   [0/82.8903285681] Mutual Hill radius {Delta}_RH_
+                                 (1)
+--------------------------------------------------------------------------------
+Note (1): Of this planet and interior planet.
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+References:
+ Petigura et al.    Paper I.     2017AJ....154..107P, Cat. J/AJ/154/107
+ Johnson et al.     Paper II.    2017AJ....154..108J, Cat. J/AJ/154/108
+ Fulton et al.      Paper III.   2017AJ....154..109F, Cat. J/AJ/154/109
+ Petigura et al.    Paper IV.    2018AJ....155...89P, Cat. J/AJ/155/89
+ Weiss et al.       Paper VI.    2018AJ....156..254W
+ Fulton & Petigura. Paper VII    2018AJ....156..264F
+
+================================================================================
+(End)            Prepared by [AAS], Tiphaine Pouvreau [CDS]          27-Sep-2018

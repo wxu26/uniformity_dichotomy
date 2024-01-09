@@ -1,0 +1,198 @@
+J/A+A/670/A68       Architecture of exoplanetary systems         (Mishra+, 2023)
+================================================================================
+A framework for the architecture of exoplanetary systems.
+I. Four classes of planetary system architecture.
+    Mishra L., Alibert Y., Udry S., Mordasini C.
+    <Astron. Astrophys. 670, A68 (2023)>
+    =2023A&A...670A..68M        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, double and multiple ; Planets ; Exoplanets ; Optical ;
+              Stars, masses ; Stars, diameters ; Effective temperatures
+Keywords: planetary systems - planets and satellites: formation -
+          planets and satellites: dynamical evolution and stability -
+          planets and satellites: fundamental parameters
+
+Abstract:
+    We present a novel model-independent framework for studying the
+    architecture of an exoplanetary system at the system level. This
+    framework allows us to characterise, quantify, and classify the
+    architecture of an individual planetary system. Our aim, in this
+    endeavour, was to generate a uniform systematic method to study the
+    arrangement and distribution of various planetary quantities within a
+    single planetary system. We propose that the space of planetary system
+    architectures be partitioned into four classes. We label these classes
+    as: Similar, Mixed, Anti-Ordered, and Ordered. A central aim of this
+    paper is to introduce these four architecture classes. We apply our
+    framework on observed and synthetic multi-planetary systems presenting
+    their mass, radius, density, core mass, and core water mass fraction
+    architectures; and explore the relationships between a system's
+    (mass) architecture and other properties. Our simulations suggest
+    that: (a) Similar architectures are the most common outcome of planet
+    formation, (b) internal structure and composition of planets shows a
+    strong link with their system architecture, (c) most systems inherit
+    their mass architecture from their core mass architecture, (d) most
+    planets which started inside the ice line and formed in-situ are found
+    in systems with Similar architecture, and (e) most Anti-Ordered
+    systems should be rich of wet planets, while most observed mass
+    Ordered systems should have many dry planets. We find that, in good
+    agreement with theory, observations are biased towards discovering
+    systems whose density architectures are Similar, Mixed, or
+    Anti-Ordered. This study engenders novel questions and new parameter
+    spaces for understanding theory and observations. Future studies may
+    utilise our framework to not only constraining our knowledge of an
+    individual planet, but also the multi-faceted architecture of an
+    entire planetary system. We also speculate on the role of system
+    architectures in hosting habitable worlds.
+
+Description:
+    table1.dat contains a catalogue of observed multi-planetary systems:
+    There are 41 planetary systems with 194 planets in this catalogue. See
+    paper for discussion of selection criteria. The file contains the same
+    table as shown in the paper but in a machine readable format.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table1.dat      1314       41   Catalogue of observed multi-planetary systems
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes   Format Units   Label      Explanations
+--------------------------------------------------------------------------------
+    1-  10  A10   ---     HostStar   Name of Host star
+   12-  24  A13   ---     TIC        TESS Input Catalogue ID
+   26-  35  F10.1 ---     KIC        ? Kepler Input Catalogue ID
+   37-  64  A28   ---     GaiaDR2    Gaia DR2 ID
+   66-  68  F3.1  ---     Mult       Number of planets in system
+   70-  87 F18.16 Msun    Mstar      Mass of host star
+   89- 106 F18.16 Msun  e_Mstar      ? Mass of host star error
+  108- 125 F18.16 Rsun    Rstar      ? Radius of host star
+  127- 144 F18.16 Rsun  e_Rstar      ? Radius of host star error
+  146- 163 F18.16 Lsun    Lstar      Luminosity of host star
+  165- 182 E18.16 Lsun  e_Lstar      ? Luminosity of host star error
+  184- 190  F7.2  K       Teff       Effective Temperature of host star
+  192- 199  F8.4  K     e_Teff       ? Effective Temperature of host star error
+  201- 219 F19.16 ---     Met        ? Metallicity of host star
+  221- 238 F18.16 ---   e_Met        ? Error in Metallicity of host star
+  240- 245  F6.3  Gyr     Age        ? Age of host star
+  247- 251  F5.3  Gyr   e_Age        ? Error in Age of host star
+  253- 271 F19.14 pc      Dist       Distance of host star
+       273  A1    ---     ---
+  274- 280  A7    ---     Planet1    Planet1 name or letter
+  282- 286  A5    ---     Planet2    Planet2 name or letter
+  288- 292  A5    ---     Planet3    Planet3 name or letter
+  294- 297  A4    ---     Planet4    Planet4 name or letter
+  299- 305  A7    ---     Planet5    Planet5 name or letter
+  307- 312  A6    ---     Planet6    Planet6 name or letter
+  314- 319  A6    ---     Planet7    Planet7 name or letter
+  321- 327  A7    ---     Planet8    Planet8 name or letter
+  328- 329  A2    ---     ---
+  330- 344 F15.10 Mgeo    Mass1      ?=- Mass of planet 1
+  346- 359  F14.9 Mgeo    Mass2      ?=- Mass of planet 2
+  361- 373  F13.8 Mgeo    Mass3      ?=- Mass of planet 3
+  375- 388  F14.9 Mgeo    Mass4      ?=- Mass of planet 4
+  390- 399  F10.6 Mgeo    Mass5      ?=- Mass of planet 5
+  401- 411  F11.7 Mgeo    Mass6      ?=- Mass of planet 6
+  413- 422  F10.7 Mgeo    Mass7      ?=- Mass of planet 7
+  424- 433  F10.7 Mgeo    Mass8      ?=- Mass of planet 8
+  434- 435  A2    --      ---
+  436- 449  E14.8 Mgeo  e_Mass1      ?=- Mass of planet 1 error
+  451- 464  E14.8 Mgeo  e_Mass2      ?=- Mass of planet 2 error
+  466- 479  E14.8 Mgeo  e_Mass3      ?=- Mass of planet 3 error
+  481- 494  E14.8 Mgeo  e_Mass4      ?=- Mass of planet 4 error
+  496- 509  E14.8 Mgeo  e_Mass5      ?=- Mass of planet 5 error
+  511- 524  E14.8 Mgeo  e_Mass6      ?=- Mass of planet 6 error
+  526- 539  E14.8 Mgeo  e_Mass7      ?=- Mass of planet 7 error
+  541- 554  E14.8 Mgeo  e_Mass8      ?=- Mass of planet 8 error
+  555- 556  A2    ---     ---
+  557- 567  F11.8 Rgeo    Radius1    ?=- Radius of planet1
+  568- 578  F11.8 Rgeo    Radius2    ?=- Radius of planet2
+  580- 590  F11.8 Rgeo    Radius3    ?=- Radius of planet3
+  591- 601  F11.8 Rgeo    Radius4    ?=- Radius of planet4
+  603- 613  F11.8 Rgeo    Radius5    ?=- Radius of planet5
+  615- 624  F10.8 Rgeo    Radius6    ?=- Radius of planet6
+  626- 635  F10.8 Rgeo    Radius7    ?=- Radius of planet7
+  637- 646  F10.8 Rgeo    Radius8    ?=- Radius of planet8
+  647- 648  A2    ---     ---
+  649- 662  E14.9 Rgeo  e_Radius1    ?=- Radius of planet1 error
+  664- 677  E14.9 Rgeo  e_Radius2    ?=- Radius of planet2 error
+  679- 692  E14.9 Rgeo  e_Radius3    ?=- Radius of planet3 error
+  694- 707  E14.9 Rgeo  e_Radius4    ?=- Radius of planet4 error
+  709- 722  E14.9 Rgeo  e_Radius5    ?=- Radius of planet5 error
+  724- 737  E14.9 Rgeo  e_Radius6    ?=- Radius of planet6 error
+  739- 752  E14.9 Rgeo  e_Radius7    ?=- Radius of planet7 error
+  754- 767  E14.9 Rgeo  e_Radius8    ?=- Radius of planet8 error
+  768- 769  A2    ---     ---
+  770- 780  F11.8 AU      sma1       Semi-major axis of planet1
+  782- 792  F11.8 AU      sma2       Semi-major axis of planet2
+  794- 804  F11.8 AU      sma3       Semi-major axis of planet3
+  806- 816  F11.8 AU      sma4       Semi-major axis of planet4
+  818- 828  F11.8 AU      sma5       ? Semi-major axis of planet5
+  830- 840  F11.8 AU      sma6       ? Semi-major axis of planet6
+  842- 852  F11.8 AU      sma7       ? Semi-major axis of planet7
+  854- 864  F11.8 AU      sma8       ? Semi-major axis of planet8
+  865- 866  A2    ---     ---
+  867- 874  E8.3  AU    e_sma1       ?=- Semi-major axis of planet1 error
+  876- 883  E8.3  AU    e_sma2       ?=- Semi-major axis of planet2 error
+  885- 891  E7.3  AU    e_sma3       ?=- Semi-major axis of planet3 error
+  893- 899  E7.3  AU    e_sma4       ?=- Semi-major axis of planet4 error
+  901- 907  E7.3  AU    e_sma5       ?=- Semi-major axis of planet5 error
+  909- 915  E7.3  AU    e_sma6       ?=- Semi-major axis of planet6 error
+  917- 923  E7.3  AU    e_sma7       ?=- Semi-major axis of planet7 error
+  925- 927  A3    AU    e_sma8       ?=- Semi-major axis of planet8 error
+  928- 929  A2    ---     ---
+  930- 939  E10.8 ---     ecc1       ?=- Eccentricity of planet1
+  941- 950  E10.8 ---     ecc2       ?=- Eccentricity of planet2
+  952- 961  E10.8 ---     ecc3       ?=- Eccentricity of planet3
+  963- 971  E9.7  ---     ecc4       ?=- Eccentricity of planet4
+  973- 982  F10.8 ---     ecc5       ?=- Eccentricity of planet5
+  984- 992  F9.7  ---     ecc6       ?=- Eccentricity of planet6
+  994-1003  F10.8 ---     ecc7       ?=- Eccentricity of planet7
+ 1005-1014  F10.8 ---     ecc8       ?=- Eccentricity of planet8
+ 1015-1016  A2    ---     ---
+ 1017-1023  F7.5  ---   e_ecc1       ?=- Eccentricity of planet1 error
+ 1025-1031  F7.5  ---   e_ecc2       ?=- Eccentricity of planet2 error
+ 1033-1039  F7.5  ---   e_ecc3       ?=- Eccentricity of planet3 error
+ 1041-1047  F7.5  ---   e_ecc4       ?=- Eccentricity of planet4 error
+ 1049-1055  F7.5  ---   e_ecc5       ?=- Eccentricity of planet5 error
+ 1057-1063  F7.5  ---   e_ecc6       ?=- Eccentricity of planet6 error
+ 1065-1071  F7.5  ---   e_ecc7       ?=- Eccentricity of planet7 error
+ 1073-1075  A3    ---   e_ecc8       ?=- Eccentricity of planet8 error
+ 1076-1077  A2    ---     ---
+ 1078-1091  E14.9 rad     Inc1       ?=- Inclination of planet1
+ 1093-1106  E14.9 rad     Inc2       ?=- Inclination of planet2
+ 1108-1122  E15.9 rad     Inc3       ?=- Inclination of planet3
+ 1124-1137  E14.9 rad     Inc4       ?=- Inclination of planet4
+ 1139-1152  E14.9 rad     Inc5       ?=- Inclination of planet5
+ 1154-1167  E14.9 rad     Inc6       ?=- Inclination of planet6
+ 1169-1182  E14.9 rad     Inc7       ?=- Inclination of planet7
+ 1184-1198  E15.9 rad     Inc8       ?=- Inclination of planet8
+ 1199-1200  A2    ---     ---
+ 1201-1214  E14.9 rad   e_Inc1       ?=- Inclination of planet1 error
+ 1216-1229  E14.9 rad   e_Inc2       ?=- Inclination of planet2 error
+ 1231-1244  E14.9 rad   e_Inc3       ?=- Inclination of planet3 error
+ 1246-1259  E14.9 rad   e_Inc4       ?=- Inclination of planet4 error
+ 1261-1270  F10.8 rad   e_Inc5       ?=- Inclination of planet5 error
+ 1272-1281  F10.8 rad   e_Inc6       ?=- Inclination of planet6 error
+ 1283-1292  F10.8 rad   e_Inc7       ?=- Inclination of planet7 error
+ 1294-1296  A3    rad   e_Inc8       ?=- Inclination of planet8 error
+ 1297-1298  A2    ---     ---
+      1299  A1    ---     min-mass1  [FT-] True/False for minimum mass1
+      1301  A1    ---     min-mass2  [FT-] True/False for minimum mass2
+      1303  A1    ---     min-mass3  [FT-] True/False for minimum mass3
+      1305  A1    ---     min-mass4  [FT-] True/False for minimum mass4
+      1307  A1    ---     min-mass5  [FT-] True/False for minimum mass5
+      1309  A1    ---     min-mass6  [FT-] True/False for minimum mass6
+      1311  A1    ---     min-mass7  [FT-] True/False for minimum mass7
+      1313  A1    ---     min-mass8  [FT-] True/False for minimum mass8
+      1314  A1    ---     ---
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Lokesh Mischra, lokesh.mishra(at)unige.ch
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  05-Dec-2022
